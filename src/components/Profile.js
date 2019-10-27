@@ -1,10 +1,11 @@
 import React from 'react';
 import {Col} from "react-bootstrap";
+import style from './Profile.module.css'
 
 const Profile = () => {
     return(
         <Col xs={9}>
-            <div>
+            <div className={style.profile}>
                 <div>
                     <img src="/images/banner.jpg" alt=""/>
                 </div>
@@ -16,11 +17,11 @@ const Profile = () => {
                     <div>
                         New post
                     </div>
-                    <div>
-                        <div>post_1</div>
-                        <div>post_2</div>
-                        <div>post_3</div>
-                        <div>post_4</div>
+                    <div className={style.posts}>
+                        <div className={style.item}>post_1</div>
+                        <div className={style.item}>post_2</div>
+                        <div className={style.item}>post_3</div>
+                        <div className={style.item}>post_4</div>
                     </div>
                 </div>
             </div>

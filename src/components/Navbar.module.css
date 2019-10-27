@@ -1,0 +1,10 @@
+.sidebar {
+    background: #004fa9;
+    height: 100%;
+}
+.item {
+    color: #ffffff;
+}
+.item.active {
+    color: #ff0000;
+}

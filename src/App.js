@@ -21,7 +21,7 @@ class App extends React.Component {
                 <Container>
                     <Row>
                         <Col xs={12}>
-                            <Row>
+                            <Row noGutters={true}>
                                 <Navbar/>
                                 <Profile/>
                             </Row>
