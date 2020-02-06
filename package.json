@@ -36,5 +36,7 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.16.0"
-  }
+  },
+  "repository": "https://github.com/DavidyukVova/Social_network.git",
+  "author": "Vova <vovkadavidyuk@gmail.com>"
 }
