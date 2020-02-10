@@ -1,13 +1,30 @@
 .sidebar {
     background: #6996D3;
     height: 100%;
+    padding: 20px;
 }
 .item {
     color: #ffffff;
 }
 .item a {
     color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.15s all linear;
+    -o-transition: 0.15s all linear;
+    transition: 0.15s all linear;
 }
-.item.active a {
+.item a:hover {
+    color: 	#FFCA73;
+}
+.item a.active {
     color: #FFB740;
+}
+.friendBlock {
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.friendBlock .friend img {
+    width: 50px;
 }

@@ -5,8 +5,12 @@ const Post = (props) => {
 
     return(
         <div className={style.item}>
-            <img src="/images/avatar.png" alt=""/>
-            { props.massage }
+            <div className={style.postInfo}>
+                <div className={style.nophotoWrap}>
+                    <img src="/images/nouser.png" alt=""/>
+                </div>
+                <span>{props.massage}</span>
+            </div>
             <div>
                 <span>Like</span> <span>{ props.likesCount }</span>
             </div>

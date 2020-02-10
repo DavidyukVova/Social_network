@@ -1,0 +1,14 @@
+.dialogs {
+    background: #284C7E;
+    min-height: 100%;
+}
+.dialogsItems {
+    padding: 20px 10px;
+    color: #ffffff;
+}
+.dialogsItems a {
+    color: #ffffff;
+}
+.massages {
+    padding: 20px 10px;
+}
